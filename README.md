@@ -120,3 +120,5 @@ Ed | Male
 Glester | Male
 Jeffrey | Male
 
+* Link all resume
+![alt text](https://github.com/clydeatuic/javascriptactivity/blob/master/jsactivity.PNG "Javascript Activity")
