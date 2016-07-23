@@ -96,3 +96,4 @@ htmlStudents += "<tr>";
 var _table2 = document.getElementById('myTable2');
 _table2.innerHTML = htmlStudents;
  ```
+* Update your previous activity and use bootstrap framework to make it more visually appealing.
