@@ -56,3 +56,43 @@
   _table.innerHTML = html;
   ```
 * JSON [JSON link here](http://www.tutorialspoint.com/json/json_tutorial.pdf)
+ * Modify your previous javascript activity. Add the following html tags inside you 'index.html'
+ ```html
+ <!DOCTYPE html>
+ <html>
+ 	<head>
+ 		<!-- title and styles here.. -->
+ 	</head>
+ 	<body>
+ 		<!-- same as previous index.html content -->
+ 		<hr/>
+ 		<table border=1 id='myTable2'></table>
+ 	</body>
+ 	<script type='text/javascript' src='js/script.js'></script>
+ 	<!-- include data.js external link script here.. -->
+ </html>
+ ```
+ * Create a 'data.js' file
+ ```js
+ var students = { "MIT" : [
+ { "name" : "Reymar", "gender" : "Male" },
+ { "name" : "Cindy", "gender" : "Female" },
+ { "name" : "Kevin", "gender" : "Male" }
+ ]
+} 
+
+var htmlStudents = "<tr>";
+for(i=0;i<students.MIT.length;i++)
+{
+ htmlStudents+="<td>";
+ htmlStudents+="<table border='1' width=100 >";
+ htmlStudents+="<tr><td><b>Name</b></td><td width=50>"+ students.MIT[i].name+"</td></tr>";
+ htmlStudents+="<tr><td><b>Price</b></td><td width=50>"+ students.MIT[i].gender +"</td></tr>";
+ htmlStudents+="</table>";
+ htmlStudents+="</td>";
+}
+htmlStudents += "<tr>";
+
+var _table2 = document.getElementById('myTable2');
+_table2.innerHTML = htmlStudents;
+ ```
