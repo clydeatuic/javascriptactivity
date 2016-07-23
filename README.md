@@ -56,4 +56,3 @@
   _table.innerHTML = html;
   ```
 * JSON [JSON link here](http://www.tutorialspoint.com/json/json_tutorial.pdf)
- * 
