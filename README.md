@@ -103,7 +103,7 @@ _table2.innerHTML = htmlStudents;
     <html>
     	<head>
     		<title>Javascript Activity</title>
-    		<link rel='stylesheet' href='bootstrap/distcss/bootstrap.min.css'>
+    		<link rel='stylesheet' href='bootstrap/dist/css/bootstrap.min.css'>
 		    <script type='text/javascript' src='bootstrap/dist/js/bootstrap.min.js'></script>
 		    
 		    <!-- modify your tags to fit in bootstrap requirements -->
