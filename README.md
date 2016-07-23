@@ -7,7 +7,7 @@
   * Document Object Models
   * Loops and Others
    * Activity
-   '''
+   ``` html
     <!-- index.html -->
     <!DOCTYPE html>
     <html>
@@ -26,9 +26,9 @@
     	</body>
     	<script type='text/javascript' src='js/script.js'></script>
     </html>
-   '''
+   ```
   <hr/>
-  '''
+  ``` js
   var _title = document.getElementById('myTitle');
   _title.innerHTML = "My New Title";
   
@@ -54,6 +54,6 @@
   }
   html += "</tbody>";
   _table.innerHTML = html;
-  '''
+  ```
 * JSON [JSON link here](http://www.tutorialspoint.com/json/json_tutorial.pdf)
  * 
