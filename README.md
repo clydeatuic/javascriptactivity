@@ -108,3 +108,13 @@ _table2.innerHTML = htmlStudents;
 		    
 		    <!-- modify your tags to fit in bootstrap requirements -->
 ```    		
+* Complete the table values
+Name | Gender
+------------ | -------------
+Reymar | Male
+Cindy | Female 
+Kevin | Male
+Dan | Male
+Ed | Male
+Glester | Male
+Jeffrey | Male
