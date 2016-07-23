@@ -97,3 +97,14 @@ var _table2 = document.getElementById('myTable2');
 _table2.innerHTML = htmlStudents;
  ```
 * Update your previous activity and use bootstrap framework to make it more visually appealing.
+``` html
+    <!-- index.html -->
+    <!DOCTYPE html>
+    <html>
+    	<head>
+    		<title>Javascript Activity</title>
+    		<link rel='stylesheet' href='bootstrap/distcss/bootstrap.min.css'>
+		    <script type='text/javascript' src='bootstrap/dist/js/bootstrap.min.js'></script>
+		    
+		    <!-- modify your tags to fit in bootstrap requirements -->
+```    		
