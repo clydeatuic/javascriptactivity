@@ -110,7 +110,7 @@ _table2.innerHTML = htmlStudents;
 ```    		
 * Complete the table values
 Name | Gender
------------- | -------------
+------ | ------
 Reymar | Male
 Cindy | Female 
 Kevin | Male
